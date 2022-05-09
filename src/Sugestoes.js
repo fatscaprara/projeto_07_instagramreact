@@ -18,7 +18,6 @@ export default function Sugestoes() {
 
             {sugestoes.map(sugestao => <Sugestao urlImage={sugestao.urlImage} nome={sugestao.nome} razao={sugestao.razao} />)}
 
-            <div class="seguir">Seguir</div>
         </div>
     );
 }
